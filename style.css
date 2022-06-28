@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 16px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightblue;
+    border-bottom: 3px solid salmon;
+    z-index: 9999;
+    text-align: center;
+    padding: 3px;
+}
+
+.container{
+    position: relative;
+    width: 960px;
+    margin: 80px auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.ig{
+    display: inline-block;
+    width: 200px;
+    height: 113px;
+    background-image: url(images/ig_ribbon-removebg-preview.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -26px;
+    right:-70px;
+}
+
+.header{
+    padding: 10px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero{
+    height: 300px;
+    background-image: url(images/gambar.jpg);
+    background-size: cover;
+    background-position: 0 -160px;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid red;
+}
+
+.main{
+    padding: 20px;
+    width: 600px;
+    float: left;
+}
+
+.main h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.main .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sidebar{
+    padding: 20px;
+    width: 300px;
+    float: left;
+}
+
+.sidebar h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sidebar img{
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p{
+    text-align: justify;
+}
+
+.footer{
+    background-color: darkslategray;
+}
+
+.footer .copyright{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.clear{
+    clear: left;
+}
